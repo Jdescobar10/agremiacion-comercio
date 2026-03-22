@@ -59,7 +59,7 @@ GO
 
 CREATE TABLE dbo.Comerciante (
     Id                INT          NOT NULL IDENTITY(1,1),
-    NombreRazonSocial VARCHAR(150) NOT NULL,
+    RazonSocial VARCHAR(150) NOT NULL,
     MunicipioId       INT          NOT NULL,
     Telefono          VARCHAR(20)  NULL,       -- Opcional
     CorreoElectronico VARCHAR(100) NULL,        -- Opcional
