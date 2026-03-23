@@ -1,0 +1,10 @@
+version: "1.0"
+name: "GesComercio"
+tools: "gemini"
+projectFile: "openspec/project.md"
+paths:
+  proposals: "openspec/proposals"
+  specs: "openspec/specs"
+  tasks: "openspec/tasks"
+  archive: "openspec/archive"
+defaultModel: "gemini-3-pro"
