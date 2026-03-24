@@ -31,6 +31,8 @@ builder.Services.AddScoped<IMunicipioRepository, MunicipioRepository>();
 // -------------------------------------------------------
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IMunicipioService, MunicipioService>();
+
 
 // -------------------------------------------------------
 // 4. Validators
@@ -86,6 +88,7 @@ builder.Services.AddCors(options =>
 // 7. Controllers
 // -------------------------------------------------------
 builder.Services.AddControllers();
+builder.Services.AddMemoryCache();
 
 // -------------------------------------------------------
 // 8. Swagger con soporte JWT
